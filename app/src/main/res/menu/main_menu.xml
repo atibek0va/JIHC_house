@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kun"
+            android:icon="@drawable/iconn"
+            android:title="Küntızbe" />
+        <item
+            android:id="@+id/nav_ball"
+            android:icon="@drawable/icon"
+            android:title="Tazalyq ūpailary" />
+        <item
+            android:id="@+id/nav_abla"
+            android:icon="@drawable/iconnn"
+            android:title="Tärbieşıler" />
+    </group>
+
+        <item android:title="additonal">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/iconn"
+                    android:title="Küntızbe" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/icon"
+                    android:title="Tazalyq ūpailary" />
+                </group>
+            </menu>
+        </item>
+
+
+
+        <item android:title="last">
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/iconn"
+                    android:title="Baptau" />
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@drawable/icon"
+                    android:title="FAQ" />
+                <item
+                    android:id="@+id/nav_abtus"
+                    android:icon="@drawable/icon"
+                    android:title="Bız turaly" />
+                </group>
+            </menu>
+        </item>
+</menu>
